@@ -1,5 +1,4 @@
-dpi_x = document.getElementById('testdiv').offsetWidth;
-console.log(dpi_x);
+dpi_x = prompt("Please enter your device DPI: ")
 document.getElementById('testdiv').innerHTML = "DPI: " + dpi_x.toString()
 
 DPIofYourDeviceScreen = dpi_x; //you will need to measure or look up the DPI or PPI of your device/browser to make sure you get the right scale!!
