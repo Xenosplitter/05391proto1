@@ -1,6 +1,7 @@
+dpi_x = document.getElementById('testdiv').offsetWidth;
+console.log(dpi_x);
 
-
-DPIofYourDeviceScreen = 110; //you will need to measure or look up the DPI or PPI of your device/browser to make sure you get the right scale!!
+DPIofYourDeviceScreen = dpi_x; //you will need to measure or look up the DPI or PPI of your device/browser to make sure you get the right scale!!
 createCanvasOfInputArea = DPIofYourDeviceScreen*1; //aka, 1.0 inches square!
 
 let totalTrialNum = 2; //the total number of phrases to be tested - set this low for testing. Might be ~10 for the real bakeoff!
